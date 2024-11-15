@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lennox Galanje"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ddc3ccf995.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-----Navigation Menu------>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Kupa<span>kwashe</span></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About-Me">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <script>
+                var sidemenu = document.getElementById("sidemenu");
+                    function openmenu() {
+                        sidemenu.style.right = "0";
+                    }
+                    function closemenu() {
+                        sidemenu.style.right = "-200px";
+                    }
+            </script>
+
+
+            
+         
+ <!-----Page header------>
+            <div class="header-text">
+                <h1>Hey I'm <span class="name">Kupa</span> <br> <span class="typewriter"></span></h1>
+            </div>
+            <p class="paragraph">With extensive experience managing projects from inception to completion <br>
+            I am enthusiastic about applying my technical acumen and leadership<br> capabilities to foster meaningful impact within a
+            dynamic team environment.</p>
+
+            <div class="content">
+                <a href="https://www.linkedin.com/in/kupakwashe-mapuranga-18b6a2276/?originalSubdomain=in">Hire Me</a>
+            </div>
+            
+        </div>
+        <div class="image_box">
+            <img src="images/kupa.png" alt="kupa">
+        </div>
+    </div>
+
+<hr class="section-breaker">
+
+ <!-----About Me------>
+
+<div id="About-Me">
+     <div class="about">
+        <h2>About Me</h2>
+        <p>I am an AI and Machine Learning specialist with a passion for harnessing data to drive intelligent solutions.
+        Driven by a commitment to personal development, I am dedicated to advancing my knowledge in artificial intelligence
+        and machine learning. With a strong aptitude for tackling complex challenges, l've consistently delivered impactful
+        l projects for a variety of clients, including IT consultancies. My experience spans diverse industries, where I
+        have successfully developed and deployed AI-driven solutions that optimize processes, improve decision-making,
+        and enhance user experiences. I am committed to staying at the forefront of the field, leveraging technology to create
+        meaningful impactin innovative and practical ways</p>
+     </div>   
+
+</div>
+
+<hr class="section-breaker">
+
+<!---------PROJECTS------------------>
+
+<div id="Projects">
+    <div class="proj">
+        <h1>Projects</h1>
+        <p>In this section, you'll find a showcase of my work in machine learning and artificial intelligence.  Each project
+        demonstrates my ability to harness data, build predictive models, and develop intelligent systems  that solve complex,
+        real-world problems. From predictive analytics to natural language processing and computer vision, these projects
+        highlight my technical expertise and innovative approach to AI-driven solutions.</p>
+
+    </div>
+
+<hr class="section-breaker">
+
+<!--------------Cards--------------------->
+<div class="content-cards">
+    <div class="card">
+        <div class="box">
+            <div class="content">
+                <h3>Wildlife Guardian Alert System</h3>
+                <p>WGAS is a machine learning-based system that uses thermal cameras to detect
+                animals on roads and provide real-time alerts to drivers. This system enhances
+                road safety in Botswana by reducing collisions with wildlife and livestock, thereby
+                protecting lives and supporting the local economy</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="content">
+                <h3>Grapes Grading System Model</h3>
+                <p>Is a model built to classify grapes into export, local, and drying quality using decision trees, achieving 98%
+                accuracy. This project aims to streamline the grading process in the agricultural industry, enhancing quality control
+                and efficiency.</p>    
+            </div>
+        </div>
+    </div>    
+    <div class="card">
+        <div class="box">
+            <div class="content">
+                <h3>Autism Prediction <br> Model</h3>
+                <p>This model was created using Random Forest and ensemble learning to assist in the early diagnosis of autism, achieving
+                an impressive 99% accuracy. The project provides healthcare professionals with a reliable AI-driven tool for identifying
+                autism in children, thereby supporting improved early intervention and outcomes.</p>        
+            </div>
+        </div>
+    </div>
+</div>
+ <hr class="section-breaker">
+
+ 
+
+<!-------------Contact-------------->
+<div id="contact">
+    <div class="contact-us">
+        <h2>Connect with <span>Kupa</span></h2>
+        <p>I am eager to leverage my technical expertise
+        and leadership skills to drive impactful change within a dynamic team</p>
+    </div>
+    <div class="contain">
+        <div class="contactinfo">
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-map"></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>4583 Extension <br> 14 Gaborone, Botswana</p>
+                </div>
+            </div>
+        <div class="box">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="text">
+                <h3>Phone</h3>
+                <p>267-763-62317</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="text">
+                <h3>Email</h3>
+                <p>kupakwashemapuranga@gmail.com</p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/ApostleKTM"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://in.linkedin.com/in/kupakwashe-mapuranga-18b6a2276"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <a href="images/CV_2024100412023164.pdf" download="" class="btn btn2">Download CV</a>
+    </div>
+    <div class="contactForm">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h2>Send Message</h2>
+            <input type="hidden" name="access_key" value="96d56288-171c-4b57-b3cd-2eba09417d94">
+            <div class="inputBox">
+                <input type="text" name=" Name" required="required">
+                <span>Name</span>
+            </div>
+            <div class="inputBox">
+                <input type="email" name=" Email" required="required">
+                <span>Email</span>
+            </div>
+            <div class="inputBox">
+                <textarea required="required" name="Message"></textarea>
+                <span>Type your Message...</span>
+            </div>
+            <div class="inputBox">
+                <input type="submit" name="" value="Send">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div class="copyright">
+    <p>&copy; 2024  <a href="https://www.linkedin.com/in/lennox-galanje/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BYFbo74TrSRqfEzZThN8Sig%3D%3D">Lennox Galanje</a>   All rights reserved.</p>
+</div>
+
+
+    
+
+    <script>
+        const texts = ["Am an Al Specialist", "Am a ML Specialist"];
+        let index = 0;
+        const typewriterElement = document.querySelector('.typewriter');
+
+        function type() {
+            const currentText = texts[index];
+            let charIndex = 0;
+
+            function typeChar() {
+                if (charIndex < currentText.length) {
+                    typewriterElement.textContent += currentText.charAt(charIndex);
+                    charIndex++;
+                    setTimeout(typeChar, 100); 
+                } else {
+                    setTimeout(deleteText, 1000); 
+                }
+            }
+
+            typeChar();
+        }
+
+        function deleteText() {
+            const currentText = texts[index];
+            let charIndex = currentText.length;
+
+            function deleteChar() {
+                if (charIndex > 0) {
+                    typewriterElement.textContent = currentText.substring(0, charIndex - 1);
+                    charIndex--;
+                    setTimeout(deleteChar, 50); 
+                } else {
+                    index = (index + 1) % texts.length; 
+                    setTimeout(type, 500); 
+                }
+            }
+
+            deleteChar();
+        }
+
+        type();
+    </script>
+
+
+</body>
+
+</html>
